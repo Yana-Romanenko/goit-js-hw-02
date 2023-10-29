@@ -3,9 +3,9 @@
 function checkForSpam(message) {
     const messageRegister = message.toLowerCase();
     if (messageRegister.includes("spam") || messageRegister.includes("sale")) {
-    console.log(true);
+    return true;
     } else {
-        console.log(false);
+       return false;
 }
 }
 
